@@ -43,7 +43,7 @@ fi
 # Package installation
 info "Installing necessary packages for skyring\n"
 set -x
-yum -y update
+#yum -y update
 if [ $? -ne 0 ]; then
     error "Failed to update packages"
 fi
